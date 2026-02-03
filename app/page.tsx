@@ -61,7 +61,6 @@ export default function Home() {
           <div className="nav-links">
             <a href="#menu">תפריט</a>
             <a href="#about">אודות</a>
-            <a href="#gallery">תמונות</a>
             <a href="#build">הרכבה</a>
             <a href="#order">הזמנה</a>
             <a href="#contact">יצירת קשר</a>
@@ -140,26 +139,11 @@ export default function Home() {
                 <span>מתכונים מקוריים</span>
               </div>
             </div>
-            <div className="about-image">
-              <div className="image-card image-toast"></div>
-              <div className="image-card image-chef"></div>
-            </div>
+
           </div>
         </section>
 
-        <section id="gallery" className="section gallery">
-          <div className="section-head">
-            <h2>תמונות שמריחות טעים</h2>
-            <p>רמזים קטנים למה שקורה בפנים: שכבות, גבינות, פריכות, וצילחות נקי.</p>
-          </div>
-          <div className="gallery-grid">
-            <div className="gallery-item g1"></div>
-            <div className="gallery-item g2"></div>
-            <div className="gallery-item g3"></div>
-            <div className="gallery-item g4"></div>
-            <div className="gallery-item g5"></div>
-          </div>
-        </section>
+
 
         <section id="build" className="section build">
           <div className="section-head">
