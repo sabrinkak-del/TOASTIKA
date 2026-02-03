@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>טוסטיקה — טוסטים חמים בעיר</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&family=Suez+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="logo">טוסטיקה</div>
+      <div class="nav-links">
+        <a href="#menu">תפריט</a>
+        <a href="#about">אודות</a>
+        <a href="#gallery">תמונות</a>
+        <a href="#build">הרכבה</a>
+        <a href="#order">הזמנה</a>
+        <a href="#contact">יצירת קשר</a>
+      </div>
+      <a class="nav-cta" href="#order">הזמנה מהירה</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="tag">חם, פריך, מדויק</p>
+        <h1>בית לטוסטים נדיבים עם נשמה עירונית</h1>
+        <p class="subtitle">לחם טרי, גבינות שנמסות בדיוק, ותוספות שמרימות. הכל מוכן במקום ומוגש תוך דקות.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#menu">לגלות את התפריט</a>
+          <a class="btn ghost" href="#build">לבנות טוסט אישי</a>
+        </div>
+        <div class="hero-highlights">
+          <div class="highlight">
+            <span class="highlight-number">12</span>
+            <span>תוספות טריות ביום</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-number">5</span>
+            <span>סוגי לחם פריכים</span>
+          </div>
+          <div class="highlight">
+            <span class="highlight-number">8</span>
+            <span>דקות בממוצע למשלוח</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <p class="card-label">הכי נמכר השבוע</p>
+          <h2>טוסט "מדורה"</h2>
+          <p>צ׳דר מעושנת, מוצרלה, עגבניות קלויות, בצל סגול, צ׳ילי עדין, על לחם מחמצת.</p>
+          <div class="card-price">₪38</div>
+          <button class="order-btn" data-item="טוסט מדורה" data-price="38">הוספה להזמנה</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="section-head">
+        <h2>טוסטים מובילים</h2>
+        <p>מבחר טוסטים שמאזנים בין קלאסי לנועז. כל אחד נצלה במקום ומוגש עם רוטב הבית.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט קלאסיק</h3>
+            <span class="price">₪26</span>
+          </div>
+          <p>מוצרלה, צ׳דר, עגבנייה פרוסה, אורגנו, על חלה קלויה.</p>
+          <button class="order-btn" data-item="טוסט קלאסיק" data-price="26">הוספה להזמנה</button>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט ים תיכוני</h3>
+            <span class="price">₪32</span>
+          </div>
+          <p>גבינת פטה, זיתים שחורים, פלפל קלוי, בזיליקום, על לחם דגנים.</p>
+          <button class="order-btn" data-item="טוסט ים תיכוני" data-price="32">הוספה להזמנה</button>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט בוקר</h3>
+            <span class="price">₪29</span>
+          </div>
+          <p>ביצת עין, מוצרלה, אבוקדו, סרירצ׳ה עדינה, על בריוש.</p>
+          <button class="order-btn" data-item="טוסט בוקר" data-price="29">הוספה להזמנה</button>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט עשן</h3>
+            <span class="price">₪34</span>
+          </div>
+          <p>טופו מעושן, צ׳דר טבעונית, בצל מקורמל, רוטב ברביקיו, על כוסמין.</p>
+          <button class="order-btn" data-item="טוסט עשן" data-price="34">הוספה להזמנה</button>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט ירוקים</h3>
+            <span class="price">₪30</span>
+          </div>
+          <p>פסטו ביתי, מוצרלה, תרד טרי, קישוא צרוב, על חלה קלויה.</p>
+          <button class="order-btn" data-item="טוסט ירוקים" data-price="30">הוספה להזמנה</button>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>טוסט שוקו-קראנץ׳</h3>
+            <span class="price">₪24</span>
+          </div>
+          <p>שוקולד מריר, בננה מקורמלת, אגוזי לוז קלויים.</p>
+          <button class="order-btn" data-item="טוסט שוקו-קראנץ׳" data-price="24">הוספה להזמנה</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head">
+        <h2>הסיפור שלנו</h2>
+        <p>נולדנו מאהבה ללחם חם וריחות של גבינה שנמסה בדיוק בזמן. כל טוסט אצלנו מתחיל בבסיס איכותי ומסתיים בחיוך.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>אנחנו צוות קטן עם לב גדול שמאמין בטוסט מושלם: פריכות מבחוץ, רכות מבפנים ותוספות שמדויקות לטעם שלכם.</p>
+          <p>המטבח פתוח, הקצב מהיר, והכל נצלה במקום — כי טוסט טוב לא מחכה.</p>
+          <div class="about-badges">
+            <span>100% טרי כל יום</span>
+            <span>ניצול מלא של חומרי גלם</span>
+            <span>מתכונים מקוריים</span>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="image-card image-toast"></div>
+          <div class="image-card image-chef"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="section-head">
+        <h2>תמונות שמריחות טעים</h2>
+        <p>רמזים קטנים למה שקורה בפנים: שכבות, גבינות, פריכות, וצילחות נקי.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item g1"></div>
+        <div class="gallery-item g2"></div>
+        <div class="gallery-item g3"></div>
+        <div class="gallery-item g4"></div>
+        <div class="gallery-item g5"></div>
+      </div>
+    </section>
+
+    <section id="build" class="section build">
+      <div class="section-head">
+        <h2>בנה את הטוסט שלך</h2>
+        <p>בחרו בסיס, גבינה ותוספות. אנחנו נקלען ונמיס בדיוק כמו שאתם אוהבים.</p>
+      </div>
+      <div class="build-grid">
+        <div class="build-card">
+          <h3>1. בסיס לחם</h3>
+          <ul class="pill-list">
+            <li>מחמצת קראסט</li>
+            <li>בריוש חמאה</li>
+            <li>דגנים מלאים</li>
+            <li>כוסמין</li>
+          </ul>
+        </div>
+        <div class="build-card">
+          <h3>2. גבינות</h3>
+          <ul class="pill-list">
+            <li>מוצרלה</li>
+            <li>צ׳דר</li>
+            <li>גאודה מיושנת</li>
+            <li>צ׳דר טבעונית</li>
+          </ul>
+        </div>
+        <div class="build-card">
+          <h3>3. תוספות</h3>
+          <ul class="pill-list">
+            <li>עגבניות קלויות</li>
+            <li>פלפלים קלויים</li>
+            <li>אבוקדו</li>
+            <li>בצל מקורמל</li>
+            <li>פסטו ביתי</li>
+            <li>צ׳ילי עדין</li>
+          </ul>
+        </div>
+      </div>
+      <div class="build-banner">
+        <p>מחיר בסיס: ₪22 + ₪3 לכל תוספת</p>
+        <a class="btn primary" href="#order">יאללה, להזמין</a>
+      </div>
+    </section>
+
+    <section id="order" class="section order">
+      <div class="section-head">
+        <h2>מערכת הזמנות</h2>
+        <p>בחרו טוסטים, עקבו אחרי העגלה ושלחו לנו פרטים. אנחנו כבר נכנסים לתנור.</p>
+      </div>
+      <div class="order-grid">
+        <div class="cart" id="cart">
+          <div class="cart-head">
+            <h3>העגלה שלך</h3>
+            <span class="cart-badge" id="cart-count">0</span>
+          </div>
+          <ul id="cart-items" class="cart-items"></ul>
+          <div class="cart-total" id="total">סה"כ: ₪0</div>
+          <p class="cart-note">משלוח חינם מעל ₪70</p>
+        </div>
+
+        <form id="order-form" class="order-form">
+          <label for="name">שם מלא</label>
+          <input type="text" id="name" required placeholder="איך נקרא לך?">
+
+          <label for="phone">טלפון</label>
+          <input type="tel" id="phone" required placeholder="050-0000000">
+
+          <label for="address">כתובת</label>
+          <input type="text" id="address" required placeholder="רחוב, מספר בית, עיר">
+
+          <label for="note">הערה להזמנה</label>
+          <textarea id="note" rows="3" placeholder="למשל: בלי בצל, חריף בצד"></textarea>
+
+          <button type="submit" class="btn primary">שליחת הזמנה</button>
+          <p class="form-hint">מיד לאחר שליחה תקבלו הודעת אישור.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div>
+      <h2>בואו לבקר</h2>
+      <p>רחוב הטוסט 12, תל אביב</p>
+      <p>ראשון–חמישי: 10:00–22:30 | שישי: 10:00–16:00</p>
+    </div>
+    <div>
+      <h2>דברו איתנו</h2>
+      <p>טלפון: 03-5551234</p>
+      <p>אימייל: hello@toastika.co.il</p>
+    </div>
+    <div class="footer-badge">נפתח כל יום עם ריח של טוסט.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
